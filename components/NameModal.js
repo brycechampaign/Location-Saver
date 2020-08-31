@@ -8,6 +8,7 @@ export default ({ location, addLocation, isOpen, setIsOpen }) => {
   const handleSubmit = (location) => {
     addLocation(location);
     setIsOpen(false);
+    setName('');
   };
 
   return (
