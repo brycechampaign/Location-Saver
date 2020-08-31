@@ -112,6 +112,7 @@ export default ({
                 latitude: location.latitude,
                 longitude: location.longitude,
               }}
+              title={location.name}
             />
           ))
         )}
